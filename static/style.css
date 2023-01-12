@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: #5F2C82;
+    position: relative;
+}
+
+section {
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.433);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+#imagem {
+    background: url(../images/building.jpg);
+    background-size: cover;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 200px;
+}
+
+form {
+    padding: 10px;
+    display: block;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+div.bloco {
+    background-color: #5F2C82;
+    border: 2px solid #5F2C82;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    display: block;
+    margin: 5px 0px;
+}
+
+span {
+    color: white;
+    width: 40px;
+    padding: 5px;
+    font-size: 1.9em;
+    display: inline-block;
+}
+
+#email, #senha {
+    background-color: #94CFCD;
+    border: 0px;
+    border-radius: 8px;
+    width: calc(100% - 45px);
+    height: 100%;
+    padding: 4px;
+    transform: translateY(-6px);
+}
+
+#enviar {
+    background-color: #94CFCD;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #94CFCD;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#enviar:hover {
+    background-color: #3f5959;
+    cursor: pointer;
+}
+
+#esquecida {
+    background-color: white;
+    color: #557979;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #94CFCD;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#esquecida:hover {
+    background-color: #91c9c8;
+    cursor: pointer;
+}
