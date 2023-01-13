@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    main {
-        background-image: linear-gradient(rgb(62, 29, 85), #5d9eb2);
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section {
@@ -9,20 +9,24 @@
     }
 
     #imagem {
-        float: left;
-        width: 30%;
+        float: left; /* POSIÇÃO DA IMG NA DIVISÃO DO BLOCO (SECTION) */
+        width: 30%; /* ESPAÇO OCUPADO NA DIVISÃO */
         height: 100%;
     }
 
     #formulario {
-        float: right;
-        width: 70%;
+        float: right; /* POSIÇÃO DO FORM NA DIVISÃO DO BLOCO (SECTION) */
+        width: 70%; /* ESPAÇO OCUPADO NA DIVISÃO */
+    }
+
+    #formulario p {
+        font-size: 1em;
     }
 }
 
 @media screen and (min-width: 992px) {
-    main {
-        background-image: linear-gradient(rgb(62, 29, 85), #5d9eb2);
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
     section {
@@ -45,5 +49,14 @@
     #formulario {
         float: left;
         width: 50%;
+    }
+
+    #formulario h1 {
+        font-size: 2em;
+    }
+
+    #formulario p {
+        font-size: 1.1em;
+        margin: 10px 0px;
     }
 }

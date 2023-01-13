@@ -16,20 +16,19 @@
 
             </div>
             <div id="formulario">
-                <form action="cadastro.php" method="post" autocomplete="on">
+                <form action="login.php" method="post" autocomplete="on">
                     <h1>Login</h1>
-                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as
-                        configurações no seu ambiente.</p>
-                    <div class="bloco">
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                    <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="email" name="email" id="email" autocomplete="email" placeholder="seu e-mail" required>
+                        <input type="email" name="email" id="email" autocomplete="email" placeholder="seu e-mail" required maxlength="50">
                     </div>
-                    <div class="bloco">
+                    <div class="campo">
                         <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="senha" id="senha" placeholder="sua senha" required>
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" required minlength="8">
                     </div>
-                        <input type="submit" value="Entrar" class="botao" id="enviar">
-                        <input type="button" value="Esqueci a senha" id="esquecida">
+                    <input type="submit" value="Entrar" class="botao" id="entrar">
+                    <input type="button" value="Esqueci a senha" id="button">
                 </form>
             </div>
         </section>
