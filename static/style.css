@@ -87,7 +87,7 @@ div.campo > input {
     width: calc(100% - 45px); /* OBS ESSE CALCULO */
     height: 100%;
     padding: 4px;
-    transform: translateY(-4px); /* DEIXE SMP POR ULTIMO */  
+    transform: translateY(-3.2px); /* DEIXE SMP POR ULTIMO */  
 }
 
 div.campo > input:focus-within { /* AO CLICAR-FOCAR NO CAMPO O BACK FICARÁ BRANCO */
