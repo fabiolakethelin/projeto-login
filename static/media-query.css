@@ -9,14 +9,14 @@
     }
 
     #imagem {
-        float: left; /* POSIÇÃO DA IMG NA DIVISÃO DO BLOCO (SECTION) */
-        width: 30%; /* ESPAÇO OCUPADO NA DIVISÃO */
+        float: left;
+        width: 30%;
         height: 100%;
     }
 
     #formulario {
-        float: right; /* POSIÇÃO DO FORM NA DIVISÃO DO BLOCO (SECTION) */
-        width: 70%; /* ESPAÇO OCUPADO NA DIVISÃO */
+        float: right;
+        width: 70%;
     }
 
     #formulario p {

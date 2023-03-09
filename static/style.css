@@ -1,8 +1,3 @@
-/*
-verde: #49a09d
-lilas: #5f2c82
-*/
-
 * {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
@@ -29,13 +24,13 @@ section {
     width: 250px;
     height: 515px;
     display: block;
-    overflow: hidden; /* TUDO QUE ESTIVER FORA DA BORDA DO BLOCO SERÁ ESCONDIDO */
+    overflow: hidden;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    transition: width 0.3s, height 0.3s; /* TEMPO DE MUDANÇA NO WIDTH E HEIGHT */
-    transition-timing-function: ease; /* DIMINUI A VELOCIDADE DA ANIMAÇÃO */
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
@@ -84,13 +79,13 @@ div.campo > input {
     border: none;
     border-radius: 5px;
     font-size: 1em;
-    width: calc(100% - 45px); /* OBS ESSE CALCULO */
+    width: calc(100% - 45px); /* OBS */
     height: 100%;
     padding: 4px;
-    transform: translateY(-3.2px); /* DEIXE SMP POR ULTIMO */  
+    transform: translateY(-3.2px);
 }
 
-div.campo > input:focus-within { /* AO CLICAR-FOCAR NO CAMPO O BACK FICARÁ BRANCO */
+div.campo > input:focus-within {
     background-color: white;
     border: none;
 }
@@ -103,7 +98,7 @@ div.campo > input:focus-within { /* AO CLICAR-FOCAR NO CAMPO O BACK FICARÁ BRAN
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
-    width: 100%; /* 100% DO CONTAINER DIV */
+    width: 100%;
     height: 40px;
     margin-bottom: 5px;
 }
